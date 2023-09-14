@@ -5,8 +5,10 @@
     height: 300px;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+    height: max-content;
 
 }
 
@@ -16,10 +18,12 @@
     height: 330px;
     text-align: left;
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
     border-radius: 20px;
     align-items: center;
+    height: max-content;
 
 
 }
@@ -74,6 +78,8 @@
     gap: 50px;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    height: max-content;
 
 }
 
@@ -108,6 +114,8 @@
     justify-content: center;
     height: 40vh;
     background: rgb(34, 193, 195);
+    flex-wrap: wrap;
+    height: max-content;
    
 }
 
@@ -115,6 +123,7 @@
     width: 40%;
     /* background: blue; */
     text-align: center;
+  text-overflow: ellipsis;
 }
 
 .chooseBox {
@@ -140,6 +149,8 @@
     align-items: center;
     justify-content: space-evenly;
     align-content: center;
+    flex-wrap: wrap;
+    height: max-content;
     background: rgb(203, 206, 212);
     background: linear-gradient(90deg, rgba(203, 206, 212, 0.8185399159663865) 84%, rgba(203, 206, 212, 0.6056547619047619) 100%);
 }
@@ -171,5 +182,7 @@ body {
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: max-content;
 
 }
